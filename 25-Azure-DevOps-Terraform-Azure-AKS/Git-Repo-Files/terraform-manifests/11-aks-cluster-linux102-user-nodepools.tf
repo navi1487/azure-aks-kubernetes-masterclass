@@ -1,5 +1,5 @@
 # Create Linux Azure AKS Node Pool
-/*
+
 resource "azurerm_kubernetes_cluster_node_pool" "linux102" {
   availability_zones    = [1, 2, 3]
   enable_auto_scaling   = true
@@ -26,4 +26,3 @@ resource "azurerm_kubernetes_cluster_node_pool" "linux102" {
     "ui-app"        = "reactjs-apps" 
   }
 }
-*/
